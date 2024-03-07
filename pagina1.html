@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <form onsubmit="return validar()">
+        Nome: <br>
+        <input type="text" name="nome" id="nome"> <br><br>
+        Endereço: <br>
+        <input type="text" name="endereco" id="endereco"> <br><br>
+        Telefone: <br>
+        <input type="text" name="telefone" id="telefone"> <br><br>
+        CPF: <br>
+        <input type="text" name="cpf" id="cpf"> <br><br>
+        senha: <br>
+        <input type="text" name="senha" id="senha"> <br><br>
+        <select id="profissao">
+            <option value="profissao1">profissão1</option>
+            <option value="profissao2">profissão2</option>
+            <option value="profissao3">profissão3</option>
+        </select><br>
+
+        <input type="submit" value="salvar" onclick="aviso()">
+
+    </form>
+</body>
+</html>
